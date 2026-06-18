@@ -1,0 +1,37 @@
+# Environment — never commit real secrets
+.env
+.env.local
+.env.*.local
+
+# Node
+node_modules/
+dist/
+.next/
+.nuxt/
+.cache/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Docker named volumes (not actual files, but in case of bind-mount artifacts)
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code local settings
+.claude/
+
+# IDE
+.idea/
+.vscode/
+*.swp
